@@ -3,7 +3,27 @@ entries:
   luckydraw-app:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-08T02:15:39.866325097Z"
+    created: "2025-08-08T02:56:36.896356237Z"
+    dependencies:
+    - condition: ingress.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      tags:
+      - ingress
+      version: 4.13.0
+    description: A Helm chart for Kubernetes
+    digest: ef3594bdcc23172c5d32749082f4a963a7b85e95191e86c02e575f69501f4397
+    maintainers:
+    - email: jitendra.sharma00@gmail.com
+      name: Jitendrasharma
+    name: luckydraw-app
+    type: application
+    urls:
+    - https://jitendragitCR.github.io/helmcharts/luckydraw-app-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-08-08T02:56:36.884537761Z"
     description: A Helm chart for Kubernetes
     digest: 244a9bd71d1f2625a02705c4dd0a6e09333553a695ac8bd5cc68dc9c0c4825e8
     name: luckydraw-app
@@ -13,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-08T02:15:39.865919518Z"
+    created: "2025-08-08T02:56:36.884145077Z"
     description: A Helm chart for Kubernetes
     digest: c03da36ef0c127a781a57782b9db5e28c7e2417a8d0a41c123e191623d11bd0a
     name: luckydraw-app
@@ -23,7 +43,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-08-08T02:15:39.865584013Z"
+    created: "2025-08-08T02:56:36.883706491Z"
     description: A Helm chart for Kubernetes
     digest: f8494590d55e0c25fd5307ac90497f1173442fdd533c15e7c97f8b147d9764dc
     name: luckydraw-app
@@ -31,4 +51,4 @@ entries:
     urls:
     - https://jitendragitCR.github.io/helmcharts/luckydraw-app-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-08T02:15:39.864333214Z"
+generated: "2025-08-08T02:56:36.883101229Z"
